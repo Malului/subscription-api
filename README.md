@@ -1,5 +1,4 @@
-```markdown
-# Subscription Workflow API 🔄
+# Subscription Tracking API 🔄
 
 A robust API for managing subscriptions with automated renewal reminders. Built for developers who need to track and notify users about upcoming subscription renewals securely and efficiently.
 
@@ -24,26 +23,10 @@ A robust API for managing subscriptions with automated renewal reminders. Built 
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/Malului/subscription-api.git
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Set up environment variables (`.env`):
-   ```env
-   DB_URI=your_mongodb_uri
-   JWT_SECRET=your_jwt_secret
-   ARCJET_KEY=your_arcjet_key
-   EMAIL_PASSWORD=your_gmail_app_password
-   QSTASH_TOKEN=your_upstash_qstash_token
-   ```
-4. Start the server:
-   ```bash
-   npm run dev
-   ```
+   git clone https://github.com/your-username/subdub-api.git
 
-5. Start the local upstash server:
+
+2. Start the local upstash server:
 ```bash
 npx @upstash/qstash-cli dev
 ```
