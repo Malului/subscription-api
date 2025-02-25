@@ -26,6 +26,12 @@ A robust API for managing subscriptions with automated renewal reminders. Built 
    git clone https://github.com/your-username/subdub-api.git
 
 
+## Install dependencies:
+1. start server:
+```bash
+npm run dev
+```
+
 2. Start the local upstash server:
 ```bash
 npx @upstash/qstash-cli dev
